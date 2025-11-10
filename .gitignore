@@ -27,7 +27,20 @@ Thumbs.db
 *.bak
 *.swp
 
-# API Test Credentials
+# API Test Credentials & Sensitive Files
 api-test/config.json
 api-test/*.pem
 api-test/*.key
+api-test/access_token.txt
+api-test/pk.pem.txt
+
+# Python Virtual Environment
+api-test/venv/
+api-test/__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+
+# Python packages (should be in requirements.txt instead)
+*.egg-info/
+.eggs/
