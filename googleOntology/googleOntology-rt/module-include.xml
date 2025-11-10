@@ -1,0 +1,4 @@
+<types>
+  <type class="googleOntology.service.BGoogleOntologyService" name="GoogleOntologyService"/>
+  <type class="googleOntology.servlet.BGoogleOntologyServlet" name="GoogleOntologyServlet"/>
+</types>

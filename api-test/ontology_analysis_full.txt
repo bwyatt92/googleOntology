@@ -1,0 +1,326 @@
+================================================================================
+KODE OS Device Point Analysis
+================================================================================
+
+🔐 Authenticating...
+🔐 Authenticating with KODE OS API...
+   Fetching OAuth2 discovery endpoints...
+   Token endpoint: https://api.kodelabs.com/oauth2/v1/token
+   Creating JWT assertion...
+   Requesting access token...
+✅ Successfully authenticated! Token expires at 2025-11-06 16:05:14
+
+📋 Fetching buildings...
+
+================================================================================
+Building: Office
+================================================================================
+
+================================================================================
+Device: AHU_3 (ahu)
+Device ID: 690914e97910a8430ff51c10
+================================================================================
+
+Total Points: 56
+
+  Bool Points (13):
+  ----------------------------------------------------------------------------
+    • S_SFan
+      - ID: 690914e97910a8430ff524ee
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • MWU
+      - ID: 690914e97910a8430ff524ed
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Enable
+      - ID: 690914e97910a8430ff524e5
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Enable
+      - ID: 690914e97910a8430ff524df
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • S_SFan
+      - ID: 690914e97910a8430ff524d9
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 8 more Bool points
+
+  Number Points (43):
+  ----------------------------------------------------------------------------
+    • HtgVlv_out
+      - ID: 690914e97910a8430ff524f3
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • SP_Select
+      - ID: 690914e97910a8430ff524ef
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • SP_MWU_SAT
+      - ID: 690914e97910a8430ff524ec
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • SP_HtgSAT
+      - ID: 690914e97910a8430ff524eb
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • T_HtgSAT
+      - ID: 690914e97910a8430ff524ea
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 38 more Number points
+
+
+================================================================================
+Device: VAV_101 (vav)
+Device ID: 690b6d3f75ea0e7cfbcc9c37
+================================================================================
+
+Total Points: 27
+
+  Bool Points (3):
+  ----------------------------------------------------------------------------
+    • GreaterThan
+      - ID: 690b6d3f75ea0e7cfbcca4d3
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Occ_Mode
+      - ID: 690b6d3f75ea0e7cfbcca4c8
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Electric Heat Stage Cmd
+      - ID: 690b6d3f75ea0e7cfbcca4c4
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+  Number Points (24):
+  ----------------------------------------------------------------------------
+    • NumericSwitch
+      - ID: 690b6d3f75ea0e7cfbcca4d5
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Ramp1
+      - ID: 690b6d3f75ea0e7cfbcca4d4
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • NumericSwitch1
+      - ID: 690b6d3f75ea0e7cfbcca4d2
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Minimum
+      - ID: 690b6d3f75ea0e7cfbcca4d1
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Add
+      - ID: 690b6d3f75ea0e7cfbcca4d0
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 19 more Number points
+
+
+================================================================================
+Building: Warehouse
+================================================================================
+
+================================================================================
+Device: AHU_3 (ahu)
+Device ID: 6904b1e475ea0e7cfb7de100
+================================================================================
+
+Total Points: 69
+
+  Bool Points (21):
+  ----------------------------------------------------------------------------
+    • CoolingNot
+      - ID: 6904b1e475ea0e7cfb7de9e2
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • And
+      - ID: 6904b1e475ea0e7cfb7de9e1
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Discharge Fan Status
+      - ID: 6904b1e475ea0e7cfb7de9de
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Device Mode
+      - ID: 6904b1e475ea0e7cfb7de9dd
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • And1
+      - ID: 6904b1e475ea0e7cfb7de9d8
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 16 more Bool points
+
+  Number Points (48):
+  ----------------------------------------------------------------------------
+    • Heat PID
+      - ID: 6904b1e475ea0e7cfb7de9e3
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Subtract
+      - ID: 6904b1e475ea0e7cfb7de9e0
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • SP_Select
+      - ID: 6904b1e475ea0e7cfb7de9df
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Eff Heating Temp Setpt
+      - ID: 6904b1e475ea0e7cfb7de9dc
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Eff Heating Temp Setpt
+      - ID: 6904b1e475ea0e7cfb7de9db
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 43 more Number points
+
+
+================================================================================
+Device: FCU_207 (fcu)
+Device ID: 6904b1e475ea0e7cfb7de0d7
+================================================================================
+
+Total Points: 20
+
+  Bool Points (6):
+  ----------------------------------------------------------------------------
+    • LessThan
+      - ID: 6904b1e475ea0e7cfb7de56a
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • GreaterThan
+      - ID: 6904b1e475ea0e7cfb7de568
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Discharge Fan Status
+      - ID: 6904b1e475ea0e7cfb7de560
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Discharge Fan Cmd
+      - ID: 6904b1e475ea0e7cfb7de55f
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Occupancy Cmd
+      - ID: 6904b1e475ea0e7cfb7de55e
+      - Value: N/A 
+      - Writable: True, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 1 more Bool points
+
+  Number Points (14):
+  ----------------------------------------------------------------------------
+    • Ramp1
+      - ID: 6904b1e475ea0e7cfb7de569
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • NumericSwitch1
+      - ID: 6904b1e475ea0e7cfb7de567
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Minimum
+      - ID: 6904b1e475ea0e7cfb7de566
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Cooling_PI1
+      - ID: 6904b1e475ea0e7cfb7de565
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    • Add
+      - ID: 6904b1e475ea0e7cfb7de564
+      - Value: N/A 
+      - Writable: False, Status: N/A
+      - Ontology Type: N/A, Canonical: N/A
+
+    ... and 9 more Number points
+
+
+  ... skipping 1 more device type(s) for brevity
+
+
+================================================================================
+Analysis Complete!
+================================================================================
+
+Key Observations:
+  • Check if points have meaningful names that indicate their function
+  • Look for patterns in naming (e.g., Temperature, Setpoint, Command)
+  • Note which points are writable (commands) vs. read-only (sensors)
+  • Identify common point types per device type (VAV, AHU, FCU, etc.)
+
+This information will help create the Google ontology mapping!

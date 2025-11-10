@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Google Ontology Module Build File
+
+  This is a basic Ant build file for the googleOntology module.
+  Adjust paths as needed for your Niagara installation.
+-->
+<project name="googleOntology-rt" default="compile" basedir=".">
+
+  <description>
+    Build file for Google Ontology Niagara module
+  </description>
+
+  <!-- Properties -->
+  <property name="src.dir" location="src"/>
+  <property name="build.dir" location="build"/>
+  <property name="module.name" value="googleOntology"/>
+
+  <!-- You'll need to set your Niagara home directory -->
+  <!-- <property name="niagara.home" location="C:/Niagara/Niagara-4.11"/> -->
+
+  <!-- Targets -->
+  <target name="init">
+    <mkdir dir="${build.dir}"/>
+  </target>
+
+  <target name="compile" depends="init" description="Compile the source">
+    <echo message="To build this module, use Niagara Workbench Module Manager"/>
+    <echo message="1. Open Niagara Workbench"/>
+    <echo message="2. Go to Tools > Module Manager"/>
+    <echo message="3. Add this module directory"/>
+    <echo message="4. Build the module"/>
+  </target>
+
+  <target name="clean" description="Clean build artifacts">
+    <delete dir="${build.dir}"/>
+  </target>
+
+</project>

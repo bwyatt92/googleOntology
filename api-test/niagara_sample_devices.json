@@ -1,0 +1,260 @@
+{
+  "building": {
+    "name": "MyNiagaraBuilding",
+    "id": "niagara-building-1"
+  },
+  "devices": [
+    {
+      "id": "ahu-01",
+      "name": "AHU_01",
+      "type": "AHU_SFSS",
+      "description": "Air Handling Unit 1 - Supply Fan with Speed Control",
+      "location": "Rooftop",
+      "points": [
+        {
+          "name": "supply_fan_run_command",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/SupplyFanCmd",
+          "value": false,
+          "writable": true,
+          "kind": "Bool",
+          "unit": null
+        },
+        {
+          "name": "supply_fan_run_status",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/SupplyFanStatus",
+          "value": false,
+          "writable": false,
+          "kind": "Bool",
+          "unit": null
+        },
+        {
+          "name": "supply_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/SupplyAirTemp",
+          "value": 55.2,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "supply_air_temperature_setpoint",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/SupplyAirTempSp",
+          "value": 55.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "heating_valve_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/HeatValveCmd",
+          "value": 25.5,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        },
+        {
+          "name": "cooling_valve_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/CoolValveCmd",
+          "value": 0.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        },
+        {
+          "name": "return_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/ReturnAirTemp",
+          "value": 72.1,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "mixed_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/AHU_01/MixedAirTemp",
+          "value": 62.3,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        }
+      ]
+    },
+    {
+      "id": "vav-101",
+      "name": "VAV_101",
+      "type": "VAV_SD_DSP",
+      "description": "VAV Box 101 - Single Duct with Damper and Setpoint",
+      "location": "Floor 1, Zone 101",
+      "points": [
+        {
+          "name": "zone_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_101/ZoneTemp",
+          "value": 72.5,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "zone_air_temperature_setpoint",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_101/ZoneTempSp",
+          "value": 72.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "supply_air_damper_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_101/DamperCmd",
+          "value": 45.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        },
+        {
+          "name": "supply_air_flow_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_101/AirflowSensor",
+          "value": 450.0,
+          "writable": false,
+          "kind": "Number",
+          "unit": "cfm"
+        },
+        {
+          "name": "supply_air_flow_setpoint",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_101/AirflowSp",
+          "value": 500.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "cfm"
+        },
+        {
+          "name": "occupancy_mode",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_101/OccMode",
+          "value": true,
+          "writable": true,
+          "kind": "Bool",
+          "unit": null
+        }
+      ]
+    },
+    {
+      "id": "vav-102",
+      "name": "VAV_102",
+      "type": "VAV_RH_DSP",
+      "description": "VAV Box 102 - with Reheat",
+      "location": "Floor 1, Zone 102",
+      "points": [
+        {
+          "name": "zone_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_102/ZoneTemp",
+          "value": 70.2,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "zone_air_temperature_setpoint",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_102/ZoneTempSp",
+          "value": 72.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "supply_air_damper_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_102/DamperCmd",
+          "value": 35.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        },
+        {
+          "name": "reheat_valve_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_102/ReheatValveCmd",
+          "value": 15.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        },
+        {
+          "name": "discharge_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_102/DischargeTemp",
+          "value": 65.0,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "occupancy_mode",
+          "niagara_path": "/Drivers/BacnetNetwork/VAV_102/OccMode",
+          "value": true,
+          "writable": true,
+          "kind": "Bool",
+          "unit": null
+        }
+      ]
+    },
+    {
+      "id": "fcu-201",
+      "name": "FCU_201",
+      "type": "FCU_DFSS_DFVSC",
+      "description": "Fan Coil Unit 201",
+      "location": "Floor 2, Zone 201",
+      "points": [
+        {
+          "name": "zone_air_temperature_sensor",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/ZoneTemp",
+          "value": 73.1,
+          "writable": false,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "zone_air_cooling_temperature_setpoint",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/CoolingSp",
+          "value": 74.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "zone_air_heating_temperature_setpoint",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/HeatingSp",
+          "value": 70.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "degF"
+        },
+        {
+          "name": "discharge_fan_run_command",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/FanCmd",
+          "value": true,
+          "writable": true,
+          "kind": "Bool",
+          "unit": null
+        },
+        {
+          "name": "discharge_fan_run_status",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/FanStatus",
+          "value": true,
+          "writable": false,
+          "kind": "Bool",
+          "unit": null
+        },
+        {
+          "name": "cooling_valve_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/CoolValveCmd",
+          "value": 25.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        },
+        {
+          "name": "heating_valve_percentage_command",
+          "niagara_path": "/Drivers/BacnetNetwork/FCU_201/HeatValveCmd",
+          "value": 0.0,
+          "writable": true,
+          "kind": "Number",
+          "unit": "percent"
+        }
+      ]
+    }
+  ]
+}

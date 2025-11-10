@@ -1,0 +1,33 @@
+# Niagara Build Files
+*.jar
+*.class
+build/
+dist/
+*.bog
+*.box
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS Files
+.DS_Store
+Thumbs.db
+*~
+
+# Logs
+*.log
+
+# Temp Files
+*.tmp
+*.bak
+*.swp
+
+# API Test Credentials
+api-test/config.json
+api-test/*.pem
+api-test/*.key

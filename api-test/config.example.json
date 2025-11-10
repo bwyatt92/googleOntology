@@ -1,0 +1,10 @@
+{
+  "client_id": "690cf217a117992939ae8d10",
+  "private_key_path": "./pk_standard.pem",
+  "base_url": "https://dsrus.kodelabs.com",
+  "notes": {
+    "client_id": "690cf217a117992939ae8d10",
+    "private_key_path": "Path to your RSA private key PEM file",
+    "base_url": "Base URL for the KODE OS API - usually doesn't need to change"
+  }
+}

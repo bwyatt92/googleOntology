@@ -1,0 +1,38 @@
+#!/bin/sh
+
+##############################################################################
+# Gradle Wrapper Script
+##############################################################################
+
+# Gradle version to use
+GRADLE_VERSION=8.5
+
+# Attempt to set APP_HOME
+# Resolve links: $0 may be a link
+PRG="$0"
+while [ -h "$PRG" ] ; do
+    ls=`ls -ld "$PRG"`
+    link=`expr "$ls" : '.*-> \(.*\)$'`
+    if expr "$link" : '/.*' > /dev/null; then
+        PRG="$link"
+    else
+        PRG=`dirname "$PRG"`"/$link"
+    fi
+done
+SAVED="`pwd`"
+cd "`dirname \"$PRG\"`/" >/dev/null
+APP_HOME="`pwd -P`"
+cd "$SAVED" >/dev/null
+
+# Run Gradle
+if command -v gradle >/dev/null 2>&1; then
+    gradle "$@"
+else
+    echo "ERROR: Gradle not found. Please install Gradle $GRADLE_VERSION or higher."
+    echo ""
+    echo "Install via SDKMAN:"
+    echo "  sdk install gradle $GRADLE_VERSION"
+    echo ""
+    echo "Or download from: https://gradle.org/releases/"
+    exit 1
+fi
